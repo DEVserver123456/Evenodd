@@ -1,0 +1,19 @@
+//Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+package Assignment;
+
+import java.util.Scanner;
+
+public class Evenodd {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter principle amount");
+        int principle = input.nextInt();
+        System.out.println("enter timeframe");
+        int time = input.nextInt();
+        System.out.println("enter rate of interst");
+        int rate = input.nextInt();
+        int simple_interest = (principle * time * rate / 100) ;
+        System.out.println("simple interesrt is "+ simple_interest);
+    }
+}
+
