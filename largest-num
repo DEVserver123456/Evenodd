@@ -1,0 +1,29 @@
+//Take 2 numbers as input and print the largest number.
+
+
+package Assignment;
+
+import java.util.Scanner;
+
+public class Evenodd{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter first number");
+        int num1 = in.nextInt();
+        System.out.println("enter number second");
+        int num2 = in.nextInt();
+        if (num1 > num2)
+            System.out.println("the largest number is"+ num1);
+        else
+            System.out.println("the largest number is " +num2);
+    }
+}
+
+//output
+enter first number
+12
+enter number second
+13
+the largest number is 13
+
+Process finished with exit code 0
